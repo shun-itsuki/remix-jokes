@@ -1,0 +1,11 @@
+node_modules
+
+/.cache
+/build
+/public/build
+.env
+
+/prisma/dev.db
+
+# 下記は、seedを打ち込むコマンド
+# npx ts-node --require tsconfig-paths/register prisma/seed.js
